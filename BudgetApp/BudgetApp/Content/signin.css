@@ -1,0 +1,63 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+.form-signin {
+    position: relative;
+    top: 100px;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+
+    background-color: #f2f2f2;
+    border-width: 2px;
+    border-style: outset;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px #888888;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: 8px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(193,158,103,1);
+    background: -moz-linear-gradient(45deg, rgba(193,158,103,1) 0%, rgba(78,196,143,1) 0%, rgba(204,255,232,1) 46%, rgba(78,196,143,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(193,158,103,1) 0%, rgba(78,196,143,1) 0%, rgba(204,255,232,1) 46%, rgba(78,196,143,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(193,158,103,1) 0%, rgba(78,196,143,1) 0%, rgba(204,255,232,1) 46%, rgba(78,196,143,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(193,158,103,1) 0%, rgba(78,196,143,1) 0%, rgba(204,255,232,1) 46%, rgba(78,196,143,1) 100%);
+    background: linear-gradient(45deg, rgba(193,158,103,1) 0%, rgba(78,196,143,1) 0%, rgba(204,255,232,1) 46%, rgba(78,196,143,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c19e67', endColorstr='#4ec48f', GradientType=1 );
+}
